@@ -1,144 +1,71 @@
 ---
 layout: blog_post
-title: Configure Laravel to Use PostgreSQL with Homestead
+title: Ethical Concerns of Athlete Biometric Data Vignette
 category: blog
 ---
 
-I was working on a new Laravel app locally with Homestead, using MySQL. I later decided to use PostgreSQL. This took a bit longer than expected. Here is how I did it.
+This was an assignment of the ethical concerns of athlete biometric data. It is aimed at player's unions for the purposes of the assignment.
 
-1. [Review Homestead Setup](#review-homestead)
-2. [Update Laravel's DB Config](#update-config)
-3. [Recreate the Database in PostgreSQL](#recreate-database)
-4. [Recreate the Database Tables and Data](#recreate-data)
-5. [Optional: Install a PostgreSQL client](#install-client)
+1. [Introduction](#introduction)
+2. [Data Misuse](#misuse)
+3. [Teams and Players Working Together](#together)
+4. [Potential Solutions](#sols)
+5. [Bibliography](#bibliography)
 
-<a name="review-homestead"></a>
+<a name="introduction"></a>
 
-## Review Homestead Setup
+## Introduction
 
-First things first, I already had this app in the works, and was already running it with [Homestead](https://laravel.com/docs/5.6/homestead), and MySQL. I already had data seeded to the database too.
+Class Assignment: Ethical Concerns of Athlete Biometric Data Vignette:
+ 
+Largely based on one free-agency signing in 2012, the Pittsburgh Pirates won an additional thirteen games. The Pirates were able to isolate a specific quantity, namely a catcher’s pitch framing ability, which led to dramatic improvements for their team.1   This is an example of how using athletes’ biometric data (ABD) can give teams and players a competitive advantage over their opponents.  ABD has the potential to create new competitive advantages for those who embrace it. ABD, defined as measurements about how the body works, has long been collected through vertical jump measurements, pitch speeds, or reaction times. However, with new wearable technologies, ABD can be collected to record precise internal data such as breathing rate, blood pressure, bone density and body composition, among many others.2
 
-Homestead was setup to run separately from my app's repository. The folders/site config in `Homestead.yaml` looks like this:
+<a name="misuse"></a>
 
-```yaml
-ip: "192.168.10.10"
-memory: 2048
-cpus: 1
-provider: virtualbox
+## Misuse
 
-authorize: ~/.ssh/id_rsa.pub
+Unfortunately, ABD can easily be misused. A team could hypothetically try to monitor players in ways unrelated to their on-field performance. Evaluating their players at all times by viewing their blood-alcohol content, dietary habits, sleep patterns or location, could lead to teams making contract decisions based on a player’s intrinsic data3. While use of this data could easily lead down a slippery slope, proper regulation and a proactive approach by players’ unions can make this beneficial for players and teams alike.
 
-keys:
-    - ~/.ssh/id_rsa
+More importantly, ABD can help players avoid injuries, improve on-field performance and develop ABD-personalized training regimens. ABD can ensure a player isn’t practicing too hard or engaging in other risky behaviors, which could lead to an injury and jeopardize their economic future. In this way, players can use on-field measurements to find weaknesses in their ability, not otherwise obvious to trainers and coaches, to improve their performance. This use of data could also help players market themselves to teams and receive higher salaries if they show that they possess certain innate desirable traits like above-average speed or stamina.4
 
-folders:
-    - map: ~/projects/laravel-forum
-      to: /home/vagrant/projects/laravel-forum
-sites:
-    - map: forum.local
-      to: /home/vagrant/projects/laravel-forum/public
+<a name="together"></a>
 
-databases:
-    - homestead
-```
+## Working Together
 
-One thing to note here is that, by default, Homestead will forward the default `5432` PostgreSQL port to `54320` on the host machine. This will come in handy later when you try to connect to it with SQL client from the host machine.
+Moreover, if the players’ unions work with the sports leagues, they can develop ways to sell certain parts of ABD to third parties and generate new revenue streams for players. This recently happened in the NFL, where a company called Whoop purchased access to certain player data and generated a new stream of revenue for players5. This is emblematic of deals that could be made with video-game creators, virtual-reality companies, television networks and various other companies6. ABD can also be a key part of content used for virtual and augmented-reality, fantasy sports, and sports wagering, all of which can also drive revenues for the players and teams7. Furthermore, studies have shown that fans become more engaged with players when shown ABD, which could lead to more merchandise sales as fans become more ardent supporters.8
 
-<a name="update-config"></a>
+However, due to the pervasive nature of ABD, there are obvious risks of the data being used to negatively impact players; nevertheless, if certain safeguards are established, it would help limit these dangers. Since teams already test for narcotics and PEDs, perform injury screenings and examine a player’s medical records, which are treated as very sensitive data, before signing them to a contract, ABD should be treated in a similar manner. Further, ABD should be kept under a player’s control, which could be written into future player contracts and legally bind teams to keep data secure. Fines or roster capacity reductions could be imposed on teams that misuse ABD, as a further disincentive9.The players’ unions could also be instrumental in developing a centralized system for the management, dissemination and protection of ABD. ABD is likely going to be used, and players need to anticipate these changes to mitigate the damage and power loss10.
 
-## Update Laravel's DB Config
+<a name="sols"></a>
 
-Modify the Laravel project's `/.env` environment file in the project root to use the PostgreSQL instance that's already in the Homestead VM.
+## Solutions
 
-Change this:
+Ultimately, ABD needs to be regulated. Every Player’s Association and Collective Bargaining Agreement will need to blend players’ and teams’ interests in this matter. In terms of protecting the players, we need to offer a solution that allows players to opt out of providing ABD, allows them to revoke access and give as much ABD as they want to provide.11 As a compromise to teams, who want ABD to evaluate players, team doctors should be provided with a standardized set of ABD, which can be used to evaluate a player’s general health. Team doctors should serve as gatekeepers and protect this data, in this way. A player shouldn’t face any repercussions for choosing not to provide their ABD to teams, past minimum requirements and team doctors should serve as an independent third party, employed by the leagues, and be obligated to provide the same information to both parties. 
 
-```yaml
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=forum
-DB_USERNAME=homestead
-DB_PASSWORD=secret
-```
+Players and teams have an economic stake in ABD and we need to make sure that the players’ interests are protected. Ultimately, there are concerns about ABD, but this data can be very useful to athletes. ABD can provide great training insights, performance benefits and additional revenue streams. With proper oversight, the ethical concerns can be avoided, and everyone can profit from this new form of information. Ultimately, ABD is going to be used and if players can take a proactive stance, then they can avoid heading down a very slippery slope. 
 
-to this:
+<a name="bibliography"></a>
 
-```yaml
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=forum
-DB_USERNAME=homestead
-DB_PASSWORD=secret
-```
+## Bibliography
 
-After refreshing the Laravel app in the browser, it will now show a database not found error, proving the configuration change worked.
+1. Sawchik, Travis. Big Data Baseball: Math, Miracles, and the End of a 20-Year Losing Streak. Flatiron Books, 2016.
+ 
+2. Osborne, Barbara, and Jennie L Cunningham. “Legal and Ethical Implications of Athletes ' Biometric Data Collection in Professional Sport.” Marquette Sports Law Review, vol. 28, no. 1, 2017, doi:10.6019/tol.elsi-c.2015.00001.1.
 
-<a name="recreate-database"></a>
+3. Venook, Jeremy. “The Upcoming Privacy Battle Over Wearables in the NBA.” The Atlantic, Atlantic Media Company, 11 Apr. 2017, www.theatlantic.com/business/archive/2017/04/biometric-tracking-sports/522222/.
+ 
+4. Madni, Jamal A., and Juo-Yu Lee. “Processing Biometric Data of Game Players Using Body Sensors.” 2009 IEEE Sensors Applications Symposium, 2009, doi:10.1109/sas.2009.4801798.
+ 
+5. Jones, Rhett. “NFL Players Strike a Deal to Sell Their Biometric Data.” Gizmodo, Gizmodo, 25 Apr. 2017, gizmodo.com/nfl-players-strike-a-deal-to-sell-their-biometric-data-1794616994.
+ 
+6. McMahan, Ian. “The Tricky Ethics of the NFL's New Open Data Policy.” Wired, Conde Nast, 28 Mar. 2018, www.wired.com/story/the-tricky-ethics-of-the-nfls-new-open-data-policy/.
+ 
+7. Gale, Kristy. “The Sports Industry's New Power Play: Athlete Biometric Data Domination. Who Owns It and What May Be Done with It .” HeinOnline, Arizona State University Sports and Entertainment Law Journal, 2016, http://asuselj.org/wp-content/uploads/2017/02/The-Sports-Industrys-New-Power-Play-Athlete-Biometric-Data-Domination-Who-Owns-it-and-What-May-be-Done-with-It.pdf
+ 
+8. Curmi, Franco, et al. “HeartLink.” Proceedings of the SIGCHI Conference on Human Factors in Computing Systems - CHI '13, 2013, doi:10.1145/2470654.2466231.
 
-## Recreate the database in PostgreSQL
-
-Since Laravel's database migrations do not handle creation of the actual databases, this step has to be handled manually.
-
-Login to Homestead's virtual machine:
-
-```shell
-$ vagrant ssh
-```
-
-From inside the VM where PostgreSQL is already setup, login to its command line binary:
-
-```shell
-$ psql -U homestead -h localhost
-```
-
-That `homestead` username is what was setup in Laravel's `.env` file, but more importantly, that's the default username that comes with Homestead. The default password is `secret`.
-
-A PostgreSQL command line is then displayed where queries and SQL can be run:
-
-```shell
-psql (9.5.10)
-SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
-Type "help" for help.
-
-homestead=#
-```
-
-Create the database. In my case, I only had one database called `forum`:
-
-```shell
-homestead=# create database forum;
-```
-
-After refreshing the Laravel app in the browser again, it will now show some table not found error, proving the database was created successfully.
-
-Type `\q` to logout of psql, and then `exit` to log out of Homestead.
-
-<a name="recreate-data"></a>
-
-## Recreate the Database Tables and Data
-
-With MySQL, I did not manually touch the data directly or with `php artisan tinker`, but instead used migrations and database seeds from the start. The seeds are default Laravel seeder classes that use the built in factories and `faker`.
-
-So all I had to do was rerun the migrations and seeds with:
-
-```shell
-$ php artisan migrate:refresh --seed
-```
-
-At this point, the Laravel app was again fully functional upon browser refreshing and was now running from PostgreSQL.
-
-<a name="install-client"></a>
-
-## Optional: Install a PostgreSQL client
-
-As nice as the `psql` command line seems, I prefer using a GUI SQL client to quickly view and scan the data. Since I'm on Arch Linux, I was already using TeamSQL as my SQL GUI client.
-
-Although Homestead uses PostgreSQL's default `5432` inside the virtual machine, it forwards to `54320`, which is what has to be used for a SQL GUI client to connect from the host to the PostgreSQL instance inside the VM guest.
-
-The connection info is:
-
-- Host: localhost
-- Port: 54320
-- Username: homestead
-- Password: secret
+9. Arnold, Jason F., and Robert M. Sade. “Wearable Technologies in Collegiate Sports: The Ethics of Collecting Biometric Data From Student-Athletes.” The American Journal of Bioethics, vol. 17, no. 1, 2016, pp. 67–70., doi:10.1080/15265161.2016.1251648.
+ 
+10. Wyshynski, Greg, “Player Tracking Coming to the NHL? It's Complicated.” ESPN.com, 28 Feb. 2018, es.pn/2oDWYUA.
+ 
+11. Karkazis, K., and J. R. Fishman. 2017. Tracking U.S. professional athletes: The ethics of biometric technologies. American Journal of Bioethics 17(1): 45–60.
