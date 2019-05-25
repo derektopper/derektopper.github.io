@@ -1,0 +1,400 @@
+/* Site Level */
+body {
+  font-family: "PT Sans", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 30px;
+}
+
+code {
+  background-color: #eee;
+  color: #393318;
+}
+
+.top-buffer { margin-top:20px; }
+
+.btn-default {
+  background: #{{ site.color.secondary-dark }};
+  padding: 15px 45px;
+}
+.btn-default:hover {
+  background: #{{ site.color.secondary }};
+}
+
+/* Home */
+
+header hr.star-light:after,
+header hr.star-primary:after {
+    content: "\f121";
+}
+
+header > div.container > div > div > img {
+    width: 300px;
+    border-radius: 150px;
+}
+
+/* About */
+
+section#about hr.star-light:after,
+section#about hr.star-primary:after {
+    content: "\f11a";
+}
+
+section#about div#interests hr.star-light:after,
+section#about div#interests hr.star-primary:after {
+    content: "\f085";
+}
+
+section#about div.row {
+margin: 10px 0;
+}
+
+section#about div#left p {
+  text-align: right;
+}
+
+section#about p a {
+  color: #{{ site.color.secondary-light }};
+}
+
+section#about ul  {
+  padding: 0;
+  margin: 0 0 15px 20px;
+  margin-bottom: 15px;
+}
+
+/* Portfolio Grid */
+
+#portfolio hr.star-light:after, #portfolio hr.star-primary:after {
+    content: "\f0b1";
+}
+
+#portfolio .portfolio-item {
+  text-align: center;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  border: 1px solid #{{ site.color.secondary }};
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: #{{ site.color.secondary-dark }};
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: .8;
+}
+
+#portfolio .portfolio-item p a {
+  font-family: "Lato";
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+
+/* Portfolio Posts */
+
+.portfolio-modal hr.star-primary:after {
+  content: "\f0b1";
+}
+
+.portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl {
+  background-color: #{{ site.color.primary }};
+}
+
+.portfolio-modal img {
+  border: 1px solid #{{ site.color.secondary-light }};
+}
+
+.portfolio-modal li {
+  font-size: 20px;
+}
+
+.portfolio-modal p, .portfolio-modal li, .portfolio-modal h3, .portfolio-modal h4, .portfolio-modal h5 {
+  color: #{{ site.color.blog-text }}
+}
+
+.portfolio-modal h3, .portfolio-modal h4, .portfolio-modal h5 {
+  text-align: center;
+  margin: 35px 0 22px 0;
+}
+
+.portfolio-modal p, .portfolio-modal ul{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.portfolio-modal .skills .skill {
+  padding: 0;
+}
+
+.portfolio-modal .skills {
+  margin-bottom: 50px;
+}
+
+.portfolio-modal .skills h5 {
+  margin: 0 0 13px 0;
+  text-align: left;
+}
+
+.portfolio-modal .skills ul {
+  padding: 0px;
+  margin: 0 0 0 18px;
+}
+
+.portfolio-modal .skills ul li {
+  text-align: left;
+  padding: 3px 0;
+}
+
+.portfolio-modal .skills hr.star-light {
+    border-color: #{{ site.color.primary }};
+}
+
+.portfolio-modal .skills hr.star-light:after {
+    content: "\f085";
+    color: #{{ site.color.primary }};
+    background-color: white
+}
+
+/* Blog Grid */
+
+section#blog hr.star-primary:after {
+  content: "\f0eb";
+}
+
+section#blog div.blog-item {
+  padding: 15px 15px;
+}
+
+@media(min-width:768px) {
+  section#blog div.blog-item {
+    min-height: 129px;
+  }
+}
+
+section#blog div.blog-item:hover{
+  background: #{{ site.color.secondary }};
+}
+
+section#blog div.blog-item p{
+  font-size: 17px;
+}
+
+section#blog div.blog-item h5{
+  margin: 0 0 10px 0;
+}
+
+section#blog div.blog-item:hover h5, section#blog div.blog-item:hover p{
+  color: #fff;
+}
+
+section#blog div.blog-item:hover a{
+  text-decoration: none;
+}
+
+/* Blog Posts */
+article.blog-post {
+  font-family: "PT Serif", "PT Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+article.blog-post header {
+  padding: 140px 0 30px 0
+}
+
+article.blog-post div.content {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+article.blog-post #disqus_thread {
+  padding: 0 0 50px 0;
+}
+
+article.blog-post hr.star-primary {
+  border-color: white;
+}
+
+article.blog-post hr.star-primary:after {
+  content: "\f0eb";
+  color: white;
+  background-color: #{{ site.color.primary }};
+}
+
+/* Account for header space that overlays articles and can cover up anchor links */
+article.blog-post a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+article.blog-post blockquote {
+  background: #f1f1f1;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.8em 10px;
+  quotes: '\201c' '\201d';
+}
+article.blog-post blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 6em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+article.blog-post blockquote p {
+  display: inline;
+  font-size: 1.1em;
+}
+article.blog-post blockquote p span{
+  display: block;
+  font-size: .8em;
+  color: #999;
+  margin: 10px 0;
+}
+
+article.blog-post {
+  text-align: left;
+}
+
+article.blog-post p {
+  margin: 1em 0;
+}
+
+article.blog-post ul, article.blog-post ol {
+  margin: 20px 0 20px 10px;
+}
+
+article.blog-post p, article.blog-post li, article.blog-post a {
+  font-size: 20px;
+}
+
+article.blog-post li {
+  margin: 5px 0;
+}
+
+article.blog-post h, article.blog-post time {
+  color: white;
+}
+
+article.blog-post h2, article.blog-post h3, article.blog-post h4, article.blog-post h5 {
+  margin-top: 40px;
+}
+
+article.blog-post p, article.blog-post li, article.blog-post h3, article.blog-post h4, article.blog-post h5 {
+  color: #{{ site.color.blog-text }}
+}
+
+article.blog-post a {
+  color: #{{ site.color.link }}
+}
+
+article.blog-post footer {
+  margin: 60px 0;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  background: #{{ site.color.primary }};
+}
+
+article.blog-post footer div.container {
+  width: 800px;
+  padding: 30px 0;
+}
+
+article.blog-post footer a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  color: white;
+}
+
+article.blog-post footer .next {
+  text-align: right;
+}
+
+/* Contact */
+
+section#contact {
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
+
+section#contact hr.star-primary {
+  border-color: #fff;
+}
+
+section#contact hr.star-light:after, section#contact hr.star-primary:after {
+    content: "\f095";
+}
+
+section#contact hr.star-primary::after {
+  color: #fff;
+  background-color: #{{ site.color.primary }};
+}
+
+section#contact form div.controls{
+    background: #fff;
+    margin: 10px;
+}
+
+section#contact button{
+    color: #fff;
+    background: #{{ site.color.secondary }};
+}
+
+section#contact button:hover{
+    color: #fff;
+    border-color: #{{ site.color.secondary }};
+    background: #{{ site.color.secondary-dark }};
+}
+
+/* Footer */
+
+.btn-social {
+  font-size: 25px;
+}
+
+.btn-codeschool i{
+  position: relative;
+  top: 2px;
+}
+
+.btn-laracasts:hover, .btn-goodreads:hover{
+  text-decoration: none;
+}
+
+.btn-laracasts, .btn-goodreads{
+  font-weight: 900;
+}
+
+/* Footer tooltips */
+footer .tooltip .tooltip-arrow{
+  border-bottom-color: #{{ site.color.primary  }} !important;
+}
+
+footer .tooltip .tooltip-inner{
+  background-color: #{{ site.color.primary  }};
+}
+
+footer .footer-col {
+    margin-bottom: 30px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer p a, footer p a:hover{
+  color: #{{ site.color.secondary-light }};
+}
+
+pre.highlight {
+  font-size: 16px;
+  font-family: Consolas, monospace;
+}
