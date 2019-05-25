@@ -4,7 +4,10 @@ title: Concerns of Athlete Biometric Data
 category: blog
 ---
 
-This is an assignment I wrote for an Ethics class.
+This was an assignment of the ethical concerns of athlete biometric data. It is aimed at player's unions for the purposes of the assignment.
+
+
+
  
 Largely based on one free-agency signing in 2012, the Pittsburgh Pirates won an additional thirteen games. The Pirates were able to isolate a specific quantity, namely a catcher’s pitch framing ability, which led to dramatic improvements for their team.   This is an example of how using athletes’ biometric data (ABD) can give teams and players a competitive advantage over their opponents.  ABD has the potential to create new competitive advantages for those who embrace it. ABD, defined as measurements about how the body works, has long been collected through vertical jump measurements, pitch speeds, or reaction times. However, with new wearable technologies, ABD can be collected to record precise internal data such as breathing rate, blood pressure, bone density and body composition, among many others.
 
