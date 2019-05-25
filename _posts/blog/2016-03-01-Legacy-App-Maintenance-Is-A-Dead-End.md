@@ -4,7 +4,7 @@ title: Legacy App Maintenance Is A Dead End
 category: blog
 ---
 
-All programmers should post a sign at the precipice descending into their old code: "Abandon all hope, ye who enter here".
+This was an assignment of the ethical concerns of athlete biometric data. It is aimed at player's unions for the purposes of the assignment.
 
 Legacy app maintenance is the Bane of the Pragmatic Programmer; the Path to Code Janitor; where the code's developers are usually long gone and there is no Virgil to guide you through their Nine Circles of Hell.
 
