@@ -1,0 +1,31 @@
+---
+layout: blog_post
+title: An Uncoordinated Society: A Look At Inequality in Sports.
+category: blog
+---
+
+An Uncoordinated Society: A Look At Inequality in Sports. 
+By Derek Topper
+
+We have built a society based on gender roles. Men are the aggressive gorillas and women are the delicate flowers. This is not the fault of the reader of this blog. Everyone has done their part in supporting gender roles in one way or another. Despite the fact that there are people throughout the world that preach equality, we have most certainly not reached that state, especially in regards to sports.
+
+Throughout history, most have regarded women as inferior at sports. This has been the reason why women were excluded from the ancient Olympics, excluded from playing in Major League Baseball during World War II and had to form the All-American Girls Professional Baseball League, (the basis for the 1992 classic "A League Of Their Own"), and this is the reason that there’ll be an unequal amount of events for men and women at 2014 Winter Olympics.
+
+However, do we breed a society that inherently supports this inequality?
+
+YES! Sure, there are things like Title IX and leagues for women like the WNBA; however, even they don't make things fully equal. The former merely requires schools show that they are partaking in a “continual expansion of athletic opportunities," which is easy to do. The women’s’ leagues struggle to get a fraction of the attendance of the men’s. Despite things that may help US female athletes, there are also many things that help foster the inequality.
+
+While women may have the opportunity to represent their schools through athletic participation, there is inherent sexism in this "equality." Many schools differentiate between their female and male teams by referring to them with different names. While many schools merely add the word "Lady" to the front of their team name to represent female teams (which is discrimination, as there should be no difference if the team is male or female in regards to athletics).  Some colleges have more discriminating names, for example, Arkansas–Monticello, where the female teams are called the "Cotton Blossoms," which implies daintiness and beauty, compared to the male "Boll Weevils," which implies danger and brings feelings of terror to opponents. This in itself is a problem and shouldn't be something that women have to face in their daily lives.
+
+You don't see many females playing football. I think society has conditioned them to believe they aren't supposed to. Little boys and girls are constantly bombarded with images by the media of brawny men in uniform playing football and beautiful women in short skirts cheering them on. However, when women play football or men cheerlead; it tends to be frowned upon by society as they’re made fun of and called names. 
+
+Personally, I think the practice of cheerleading is one of the roots of what is wrong with this inequality in society. Rather than doing something "athletic," the cheerleader's job is to cheer for the male athletes and to make banners to support them. The whole relationship between the football player and the cheerleader is based on the athlete’s dominance and the cheerleader’s inferiority as they attempt to please the athlete through cheering in provocative uniforms. In most high schools, the cheerleading team will only cheer for the football or boys' basketball but they are rarely seen cheering for a girls' basketball game. I think this helps encourage societal gender stereotypes by saying that men are the "breadwinners," and that women are just in the background supporting them. This whole concept may be a tad outdated but sports are seemingly in support of these stereotypes with the practice of cheerleading. I’m not saying that every school start a boys' cheerleading team, as few would join and bullying would ensue, but something needs to be done.
+
+I feel that as a society, we’ve designated sports for men and for women. These “male” sports include football, basketball, & baseball. While “female” sports include graceful things like cheerleading, figure-skating, and gymnastics. Society views "male" sports as about pure aggression, and "female" sports as about “feminine” concepts like beauty, an athlete’s attire and gracefulness. 
+
+Another difference in sports that I don't understand is baseball and softball. The only obvious differences are the size of the ball and the pitching style. So that begs the question: Are girls unable to throw or hit the ball like the boys? Most places have boys playing baseball and girls playing softball, but this essentially gender segregation. This is a problem as there are more opportunities for men with baseball; they can play in Major League Baseball or any of the 33 other baseball leagues in North America. While only the best softball players can play for the four professional softball teams in the U.S. I think there should equal opportunities for everyone.
+
+Even sports that tend to be more equal, like volleyball and tennis, which have both male and female competitions in the Olympics, are unequal in certain aspects. For example, in beach volleyball, men can wear less-revealing clothing than the women can. Women were required to wear bikinis in competitions until 2012 but still wear revealing attire, while men can just wear a T-Shirt and shorts. Proponents say that this attire helps women move better, but men appear to move just fine while covering more of them. In regards to tennis, there has recently been a roaring debate over if women should receive equal pay. Quite frankly, even the discussion of that is ridiculous. This is a society where we preach equal rights for all, yet, women don’t receive the same pay as men. That’s insane! A major argument against the equal pay is “men play longer matches,” but female athletes like the Williams sisters have countered that they would gladly play longer matches.
+
+There may be biological factors at play, but that doesn't warrant this discrimination that women have faced. Women shouldn’t have to live their lives differently than men nor have to endure more-revealing uniforms, face unequal pay, nor have less opportunity. We’re in an ever-changing society and this is something that needs to change, and fast.
+
