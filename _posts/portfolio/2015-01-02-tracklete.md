@@ -2,7 +2,7 @@
 layout: default
 title: Tracklete
 category: portfolio
-modal-id: 2
+modal-id: 1
 img: tracklete.png
 alt: Quality Workouts. Clear Insights. 
 client: Cal Football
