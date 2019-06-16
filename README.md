@@ -1,4 +1,4 @@
-Source code for my [Jekyll](https://jekyllrb.com/)-based portfolio at [billmartin.io](http://billmartin.io), which uses the [Freelancer Jekyll Theme](https://github.com/jeromelachaud/freelancer-theme) with my own additions:
+Source code for my [Jekyll](https://jekyllrb.com/)-based portfolio at [derektopper.github.io](http://derektopper.github.io), which uses the [Freelancer Jekyll Theme](https://github.com/jeromelachaud/freelancer-theme) with my own additions:
 
 #### Resume Linking
 The "Download Resume" button was added on the about page, which links to ```/resume/your-name-resume.pdf```
@@ -33,5 +33,5 @@ Relevant [Font Awesome](https://fortawesome.github.io/Font-Awesome/) were added 
  - Push changes on master branch to remote
  - Go to your-github-username.github.io
 
-## Demo
-View this jekyll theme in action at [billmartin.io](http://billmartin.io)
+## Origins
+View this jekyll theme in action at [billmartin.io](http://billmartin.io), who created this formatted which I forked.
