@@ -93,7 +93,7 @@ portfolio:
 footer:
   location-header: Location
   location: Long Beach, NY
-  copyright: Created by Bill Martin and Derek Topper. All Rights Reserved.
+  copyright: Forked by Derek Topper. Created by <a href="http://billmartin.github.io/" target="_new">Bill Martin</a>. All Rights Reserved.
   social: My Other Whereabouts
   new-thoughts: New Thoughts
 
