@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tracklete
+title: Framework For An Athlete Management System
 category: portfolio
 modal-id: 1
 img: tracklete.png
