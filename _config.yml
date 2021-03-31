@@ -9,7 +9,7 @@ about:
   header: About
   content:
       left: Academically, I am currently pursuing a Master's degree in Information and Data Science from <a href="http://ischool.berkeley.edu/" target="_new">UC-Berkeley's School of Information.</a> I graduated from UC-Berkeley with a degree in Data Science, and certificates in <a href="http://bcnm.berkeley.edu/" target="_new">New Media</a> and <a href="http://scet.berkeley.edu/" target="_new">Entrepreneurship & Technology</a>.
-      right:  I was previously a Basketball Analytics Associate for the Orlando Magic. I have also worked in business analytics for the New York Islanders, Phoenix Suns and New York Mets and am following my dreams of combining my loves of sports and data! 
+      right:  Currently, I work for the Tampa Bay Rays in the Baseball Research and Development department. I was previously a Basketball Analytics Associate for the Orlando Magic. I have also worked in business analytics for the New York Islanders, Phoenix Suns and New York Mets and am following my dreams of combining my loves of sports and data! 
       bottom: Born and Raised in Long Beach, NY.
   interests:
     header: Interests as of Late
@@ -17,21 +17,21 @@ about:
       left:
         header: Now
         list:
-          - item: Python
-          - item: SQL
-          - item: Java
+          - item: Finishing Up Grad School
+          - item: Developing a Data Science Course
+          - item: NLP
       center:
         header: Soon
         list:
-          - item: React
-          - item: Tableau
-          - item: AI
+          - item: React 
+          - item: Create Data Science Content
+          - item: Become a Mentor
       right:
         header: Later
         list:
-          - item: Grad School
-          - item: CPU Architecture
-          - item: Front End
+          - item: Computer Vision
+          - item: Publishing Research
+          - item: Adjunct Professor
   button:
     text: Download My Resume
     href: /resume/derek-topper-resume.pdf
