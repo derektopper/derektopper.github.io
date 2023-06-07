@@ -2,14 +2,14 @@
 title: Derek Topper
 email: derektopper@gmail.com
 url: https://derektopper.github.io
-description: "Data Scientist. Sports Analytics Buff. Enjoys Long Walks on the Beach."
+description: "Sports and Data Science."
 meta_author: Derek Topper
 
 about:
   header: About
   content:
-      left: Academically, I am currently pursuing a Master's degree in Information and Data Science from <a href="http://ischool.berkeley.edu/" target="_new">UC-Berkeley's School of Information.</a> I graduated from UC-Berkeley with a degree in Data Science, and certificates in <a href="http://bcnm.berkeley.edu/" target="_new">New Media</a> and <a href="http://scet.berkeley.edu/" target="_new">Entrepreneurship & Technology</a>.
-      right:  Currently, I work for the Tampa Bay Rays in the Baseball Research and Development department. I was previously a Basketball Analytics Associate for the Orlando Magic. I have also worked in business analytics for the New York Islanders, Phoenix Suns and New York Mets and am following my dreams of combining my loves of sports and data! 
+      left: I have a Master's degree in Information and Data Science from <a href="http://ischool.berkeley.edu/" target="_new">UC-Berkeley's School of Information.</a> I also graduated from UC-Berkeley with a <a href="http://data.berkeley.edu/" target="_new">bachelor's degree in Data Science</a>, and certificates in <a href="http://bcnm.berkeley.edu/" target="_new">New Media</a> and <a href="http://scet.berkeley.edu/" target="_new">Entrepreneurship & Technology</a>.
+      right:  Currently, I work for the Creative Artists Agency as a Baseball Data Scientist. I have previously worked in the Tampa Bay Rays' Baseball Research and Development department and was also previously a Basketball Analytics Associate for the Orlando Magic. I have also worked in business analytics for the New York Islanders, Phoenix Suns and New York Mets and am following my dreams of combining my loves of sports and data! 
       bottom: Born and Raised in Long Beach, NY.
   interests:
     header: Interests as of Late
@@ -17,21 +17,21 @@ about:
       left:
         header: Now
         list:
-          - item: Finish Grad School
+          - item: Building Websites From Scratch
           - item: Developing a Data Science Course
-          - item: Natural Language Processing
+          - item: Taught Myself to Make Floor Rugs
       center:
         header: Soon
         list:
-          - item: React 
+          - item: Learning More Front-End
           - item: Create Data Science Content
-          - item: Become a Mentor
+          - item: Learning Spanish
       right:
         header: Later
         list:
-          - item: Computer Vision
           - item: Publishing Research
-          - item: Adjunct Professor
+          - item: Adjunct Professor Job
+          - item: Travel the World
   button:
     text: Download My Resume
     href: /resume/derek-topper-resume.pdf
